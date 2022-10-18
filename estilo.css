@@ -1,0 +1,89 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto';
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+
+#navbar{
+    float: right;
+}
+
+#navbar li{
+    display: inline-block;
+    margin: 8px;
+}
+
+#navbar #entrar{
+    background-color: #4887EF;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.Google-Logo img{
+    display: block;
+    margin: 0% auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
+
+#form{
+    text-align: center;
+}
+
+#pesquisa{
+    width: 450px;
+    line-height: 30px;
+    border: 2px solid gray;
+}
+
+#botao{
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+footer ul li{
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 12px;
+}
+
+#footer-esquerdo{
+    list-style: none;
+    float: left;
+}
+
+#footer-direito{
+    list-style: none;
+    float: right
+}
